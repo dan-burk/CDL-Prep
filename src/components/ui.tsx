@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-interface SegmentedProps<T extends string | number> {
+interface RadioGroupProps<T extends string | number> {
   label: string
   options: T[]
   value: T
@@ -8,24 +8,26 @@ interface SegmentedProps<T extends string | number> {
   render?: (option: T) => ReactNode
 }
 
-export function Segmented<T extends string | number>({ label, options, value, onChange, render }: SegmentedProps<T>) {
+/** Plain native radios: quieter than button groups, and every row is still a 44px tap target */
+export function RadioGroup<T extends string | number>({ label, options, value, onChange, render }: RadioGroupProps<T>) {
   return (
-    <div role="radiogroup" aria-label={label} className="flex gap-1 rounded-lg bg-surface-2 p-1">
-      {options.map(option => (
-        <button
-          key={option}
-          role="radio"
-          aria-checked={option === value}
-          onClick={() => onChange(option)}
-          // Solid fill for the chosen option: white-on-cream was nearly invisible
-          className={`focus-ring min-h-11 flex-1 whitespace-nowrap rounded-lg px-3 py-2 font-semibold transition-colors motion-reduce:transition-none ${
-            option === value ? 'bg-accent text-accent-fg' : 'text-muted hover:bg-border hover:text-text'
-          }`}
-        >
-          {render ? render(option) : option}
-        </button>
-      ))}
-    </div>
+    <fieldset>
+      <legend className="label mb-1">{label}</legend>
+      <div className="flex flex-wrap gap-x-6">
+        {options.map(option => (
+          <label key={option} className="flex min-h-11 cursor-pointer items-center gap-2">
+            <input
+              type="radio"
+              name={label}
+              checked={option === value}
+              onChange={() => onChange(option)}
+              className="focus-ring h-5 w-5 cursor-pointer accent-accent"
+            />
+            {render ? render(option) : option}
+          </label>
+        ))}
+      </div>
+    </fieldset>
   )
 }
 

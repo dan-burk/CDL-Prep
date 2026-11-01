@@ -1,5 +1,7 @@
-import { useCallback, useEffect, useState } from 'react'
+import confetti from 'canvas-confetti'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { buildSession, grade, RETRY_GAP, SESSION_SIZE } from '../srs'
+import { manualLink } from '../decks'
 import type { Deck, Progress, Settings } from '../types'
 import { CheckIcon, CrossIcon, ProgressBar, SpeakButton } from './ui'
 
@@ -23,6 +25,19 @@ function practiceSession(deck: Deck, progress: Progress) {
     .map(c => c.id)
 }
 
+/** A small burst from the Got it button; skipped for people who turn off motion */
+function celebrate(from: HTMLElement | null) {
+  const r = from?.getBoundingClientRect()
+  confetti({
+    particleCount: 60,
+    spread: 70,
+    startVelocity: 35,
+    ticks: 120,
+    origin: r ? { x: (r.left + r.width / 2) / innerWidth, y: r.top / innerHeight } : { x: 0.5, y: 0.9 },
+    disableForReducedMotion: true,
+  })
+}
+
 function newSession(deck: Deck, progress: Progress) {
   const ids = buildSession(deck.cards, progress)
   return ids.length ? ids : practiceSession(deck, progress)
@@ -33,6 +48,7 @@ export function Study({ deck, progress, onProgress, settings, speak, onExit }: P
   const [i, setI] = useState(0)
   const [revealed, setRevealed] = useState(false)
   const [missedIds, setMissedIds] = useState<Set<string>>(new Set())
+  const gotItRef = useRef<HTMLButtonElement>(null)
 
   const done = i >= queue.length
   const card = done ? undefined : deck.cards.find(c => c.id === queue[i])
@@ -50,6 +66,7 @@ export function Study({ deck, progress, onProgress, settings, speak, onExit }: P
   const answer = useCallback((gotIt: boolean) => {
     if (!card) return
     onProgress(grade(progress, card.id, gotIt))
+    if (gotIt) celebrate(gotItRef.current)
     if (!gotIt) {
       // Bring it back a few cards later so it gets repeated while it's fresh
       setMissedIds(s => new Set(s).add(card.id))
@@ -120,24 +137,33 @@ export function Study({ deck, progress, onProgress, settings, speak, onExit }: P
             </div>
           )}
 
-          {card.page && <p className="mt-auto pt-6 text-muted">Manual page {card.page}</p>}
+          {card.page && (
+            <p className="mt-auto pt-6">
+              <a href={manualLink(card.page)} target="_blank" rel="noreferrer" className="focus-ring rounded text-muted underline hover:text-text">
+                Manual page {card.page}
+              </a>
+            </p>
+          )}
         </article>
       </main>
 
       <footer className="sticky bottom-0 border-t border-border bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
-        {/* Keys sit inside their buttons: no separate list to read */}
+        {/* On a computer each button shows its key underneath; phones hide the keys */}
         <div className="mx-auto max-w-2xl px-4 py-3 sm:px-6">
           {!revealed ? (
-            <button onClick={() => setRevealed(true)} className="btn h-14 w-full bg-accent text-lg text-accent-fg hover:bg-accent/90">
-              Show answer <kbd className="kbd">Space</kbd>
+            <button onClick={() => setRevealed(true)} className="btn h-14 w-full flex-col gap-1 bg-accent text-lg text-accent-fg hover:bg-accent/90 sm:h-16">
+              Show answer
+              <kbd className="kbd">Space</kbd>
             </button>
           ) : (
             <div className="grid grid-cols-2 gap-3">
-              <button onClick={() => answer(false)} className="btn h-14 border-2 border-bad bg-bad-soft text-lg text-bad hover:bg-bad/20">
-                <CrossIcon /> Missed it <kbd className="kbd">←</kbd>
+              <button onClick={() => answer(false)} className="btn h-14 flex-col gap-1 border-2 border-bad bg-bad-soft text-lg text-bad hover:bg-bad/20 sm:h-16">
+                <span className="flex items-center gap-2"><CrossIcon /> Missed it</span>
+                <kbd className="kbd">←</kbd>
               </button>
-              <button onClick={() => answer(true)} className="btn h-14 border-2 border-good bg-good-soft text-lg text-good hover:bg-good/20">
-                <CheckIcon /> Got it <kbd className="kbd">→</kbd>
+              <button ref={gotItRef} onClick={() => answer(true)} className="btn h-14 flex-col gap-1 border-2 border-good bg-good-soft text-lg text-good hover:bg-good/20 sm:h-16">
+                <span className="flex items-center gap-2"><CheckIcon /> Got it</span>
+                <kbd className="kbd">→</kbd>
               </button>
             </div>
           )}

@@ -43,6 +43,6 @@ body {
   }
   /* Keyboard hint inside a button; computers only */
   .kbd {
-    @apply hidden rounded border border-current px-1.5 text-sm font-medium leading-5 sm:inline-block;
+    @apply hidden rounded border border-current px-1.5 font-sans text-xs font-medium leading-4 sm:inline-block;
   }
 }

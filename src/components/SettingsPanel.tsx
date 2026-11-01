@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { canSpeak } from '../speech'
 import type { Settings } from '../types'
-import { IconButton, Segmented } from './ui'
+import { IconButton, RadioGroup } from './ui'
 
 const RATES = [0.75, 0.9, 1, 1.15]
 const RATE_NAMES: Record<number, string> = { 0.75: 'Slow', 0.9: 'Steady', 1: 'Normal', 1.15: 'Fast' }
@@ -58,14 +58,10 @@ export function SettingsPanel({ settings, onChange, voices, speak, onReset, onCl
         <div className="space-y-6">
           {canSpeak ? (
             <>
-              <Row label="Read aloud">
-                <Segmented label="Read aloud" options={['on', 'off']} value={settings.autoRead ? 'on' : 'off'}
-                  onChange={v => set('autoRead', v === 'on')} render={v => (v === 'on' ? 'Always' : 'On tap')} />
-              </Row>
+              <RadioGroup label="Read aloud" options={['on', 'off']} value={settings.autoRead ? 'on' : 'off'}
+                onChange={v => set('autoRead', v === 'on')} render={v => (v === 'on' ? 'Always' : 'On tap')} />
 
-              <Row label="Speed">
-                <Segmented label="Speed" options={RATES} value={settings.rate} onChange={v => set('rate', v)} render={r => RATE_NAMES[r]} />
-              </Row>
+              <RadioGroup label="Speed" options={RATES} value={settings.rate} onChange={v => set('rate', v)} render={r => RATE_NAMES[r]} />
 
               <Row label="Voice">
                 <div className="flex gap-2">
@@ -80,7 +76,6 @@ export function SettingsPanel({ settings, onChange, voices, speak, onReset, onCl
                   </select>
                   <button onClick={() => speak('Check your mirrors every 5 to 8 seconds.')} className="btn min-h-11 bg-accent-soft text-accent hover:bg-accent/20">Test</button>
                 </div>
-                <p className="text-muted">"Natural" voices sound best.</p>
               </Row>
             </>
           ) : (
