@@ -1,0 +1,1119 @@
+[
+  {
+    "id": "gk-001",
+    "section": "1",
+    "page": "1-1",
+    "front": "A single truck needs a CDL at what weight rating?",
+    "back": "26,001 pounds or more GVWR",
+    "why": "Remember: 26,001 is the magic CDL number."
+  },
+  {
+    "id": "gk-002",
+    "section": "1",
+    "page": "1-1",
+    "front": "How many people can a vehicle carry before it needs a CDL?",
+    "back": "16 or more, counting the driver"
+  },
+  {
+    "id": "gk-003",
+    "section": "1",
+    "page": "1-1",
+    "front": "What is a Class A vehicle?",
+    "back": "A combination over 26,000 lbs, towing over 10,000 lbs",
+    "why": "A is for the big rigs, like a tractor and trailer."
+  },
+  {
+    "id": "gk-004",
+    "section": "1.3",
+    "page": "1-7",
+    "front": "What BAC is illegal when driving a CMV?",
+    "back": "0.04% or more",
+    "why": "Half the car limit of 0.08%."
+  },
+  {
+    "id": "gk-005",
+    "section": "1.3",
+    "page": "1-7",
+    "front": "First DUI in a CMV: how long do you lose your CDL?",
+    "back": "At least 1 year"
+  },
+  {
+    "id": "gk-006",
+    "section": "1.3",
+    "page": "1-7",
+    "front": "First DUI while hauling placarded hazmat: CDL loss?",
+    "back": "At least 3 years"
+  },
+  {
+    "id": "gk-007",
+    "section": "1.3",
+    "page": "1-7",
+    "front": "What happens for a second DUI-type offense?",
+    "back": "You lose your CDL for life"
+  },
+  {
+    "id": "gk-008",
+    "section": "1.3",
+    "page": "1-7",
+    "front": "Refusing an alcohol test: what is the penalty?",
+    "back": "Lose CDL at least 1 year (first time)",
+    "why": "Driving a CMV means you agree to be tested."
+  },
+  {
+    "id": "gk-009",
+    "section": "1.3",
+    "page": "1-8",
+    "front": "Any alcohol under 0.04% in your body: penalty?",
+    "back": "Out of service for 24 hours"
+  },
+  {
+    "id": "gk-010",
+    "section": "1.3",
+    "page": "1-8",
+    "front": "Name 3 serious traffic violations.",
+    "back": "Speeding 15+ over, tailgating, reckless driving",
+    "why": "Bad lane changes also count."
+  },
+  {
+    "id": "gk-011",
+    "section": "1.3",
+    "page": "1-8",
+    "front": "2 serious violations in 3 years: CDL loss?",
+    "back": "At least 60 days"
+  },
+  {
+    "id": "gk-012",
+    "section": "1.3",
+    "page": "1-8",
+    "front": "3 serious violations in 3 years: CDL loss?",
+    "back": "At least 120 days"
+  },
+  {
+    "id": "gk-013",
+    "section": "1.3",
+    "page": "1-8",
+    "front": "First time breaking an out-of-service order: penalty?",
+    "back": "Lose CDL at least 90 days"
+  },
+  {
+    "id": "gk-014",
+    "section": "1.3",
+    "page": "1-9",
+    "front": "Lose your car license for DUI. What about your CDL?",
+    "back": "You lose your CDL for 1 year",
+    "why": "Car tickets can cost you your CDL."
+  },
+  {
+    "id": "gk-015",
+    "section": "1.4",
+    "page": "1-9",
+    "front": "How soon must you tell your boss about a traffic ticket?",
+    "back": "Within 30 days",
+    "why": "Any ticket except parking, in any vehicle."
+  },
+  {
+    "id": "gk-016",
+    "section": "1.4",
+    "page": "1-9",
+    "front": "License suspended: how soon must you tell your boss?",
+    "back": "Within 2 business days"
+  },
+  {
+    "id": "gk-017",
+    "section": "2.1",
+    "page": "2-1",
+    "front": "What is the most important reason to inspect?",
+    "back": "Safety"
+  },
+  {
+    "id": "gk-018",
+    "section": "2.1",
+    "page": "2-1",
+    "front": "Minimum tread depth on front tires?",
+    "back": "4/32 inch",
+    "why": "Front tires steer, so they need more tread."
+  },
+  {
+    "id": "gk-019",
+    "section": "2.1",
+    "page": "2-1",
+    "front": "Minimum tread depth on all other tires?",
+    "back": "2/32 inch"
+  },
+  {
+    "id": "gk-020",
+    "section": "2.1",
+    "page": "2-2",
+    "front": "How much steering wheel play is too much?",
+    "back": "More than 10 degrees (about 2 inches)",
+    "why": "Measured on a 20-inch wheel."
+  },
+  {
+    "id": "gk-021",
+    "section": "2.1",
+    "page": "2-2",
+    "front": "How many missing leaf-spring leaves put you out of service?",
+    "back": "One-fourth (1/4) or more"
+  },
+  {
+    "id": "gk-022",
+    "section": "2.1",
+    "page": "2-3",
+    "front": "What 3 kinds of emergency gear must you carry?",
+    "back": "Fire extinguisher, spare fuses, warning devices",
+    "why": "Fuses not needed if you have circuit breakers."
+  },
+  {
+    "id": "gk-023",
+    "section": "2.1",
+    "page": "2-3",
+    "front": "How many reflective warning triangles must you carry?",
+    "back": "3"
+  },
+  {
+    "id": "gk-024",
+    "section": "2.1",
+    "page": "2-4",
+    "front": "What should the ABS light do after you start the engine?",
+    "back": "Come on, then go off",
+    "why": "If it stays on, the ABS is not working."
+  },
+  {
+    "id": "gk-025",
+    "section": "2.1",
+    "page": "2-7",
+    "front": "How do you check hydraulic brakes for leaks?",
+    "back": "Pump 3 times, press and hold 5 seconds",
+    "why": "If the pedal moves, there may be a leak."
+  },
+  {
+    "id": "gk-026",
+    "section": "2.1",
+    "page": "2-7",
+    "front": "When must you first check cargo securement on a trip?",
+    "back": "Within the first 50 miles"
+  },
+  {
+    "id": "gk-027",
+    "section": "2.1",
+    "page": "2-7",
+    "front": "After that, how often must you check cargo?",
+    "back": "Every 150 miles or 3 hours",
+    "why": "Whichever comes first."
+  },
+  {
+    "id": "gk-028",
+    "section": "2.2",
+    "page": "2-9",
+    "front": "Which way should you back and turn?",
+    "back": "Toward the driver's side",
+    "why": "You can see better out your own window."
+  },
+  {
+    "id": "gk-029",
+    "section": "2.2",
+    "page": "2-9",
+    "front": "Most important hand signal to agree on with a helper?",
+    "back": "Stop"
+  },
+  {
+    "id": "gk-030",
+    "section": "2.3",
+    "page": "2-9",
+    "front": "When should you downshift for a hill?",
+    "back": "Before you start down the hill",
+    "why": "Use a gear lower than you'd use to climb it."
+  },
+  {
+    "id": "gk-031",
+    "section": "2.3",
+    "page": "2-10",
+    "front": "When should you turn the retarder off?",
+    "back": "On wet, icy, or snowy roads",
+    "why": "It can make the drive wheels skid."
+  },
+  {
+    "id": "gk-032",
+    "section": "2.4",
+    "page": "2-10",
+    "front": "How far ahead should you look?",
+    "back": "12 to 15 seconds"
+  },
+  {
+    "id": "gk-033",
+    "section": "2.4",
+    "page": "2-10",
+    "front": "At highway speed, 12-15 seconds ahead is how far?",
+    "back": "About 1/4 mile",
+    "why": "In town, it is about 1 block."
+  },
+  {
+    "id": "gk-034",
+    "section": "2.4",
+    "page": "2-11",
+    "front": "Objects in a convex mirror look how?",
+    "back": "Smaller and farther away than they are"
+  },
+  {
+    "id": "gk-035",
+    "section": "2.5",
+    "page": "2-12",
+    "front": "How do you warn drivers behind that you will slow?",
+    "back": "Tap the brakes to flash brake lights"
+  },
+  {
+    "id": "gk-036",
+    "section": "2.5",
+    "page": "2-12",
+    "front": "Stopped on the shoulder. How soon must warning devices go out?",
+    "back": "Within 10 minutes"
+  },
+  {
+    "id": "gk-037",
+    "section": "2.5",
+    "page": "2-12",
+    "front": "Divided highway stop: where do the 3 triangles go?",
+    "back": "10, 100, and 200 feet behind you",
+    "why": "All toward the oncoming traffic."
+  },
+  {
+    "id": "gk-038",
+    "section": "2.5",
+    "page": "2-13",
+    "front": "Two-way road stop: where do the triangles go?",
+    "back": "10 ft behind, 100 ft behind, 100 ft ahead"
+  },
+  {
+    "id": "gk-039",
+    "section": "2.6",
+    "page": "2-14",
+    "front": "What makes up total stopping distance?",
+    "back": "Perception + reaction + braking distance"
+  },
+  {
+    "id": "gk-040",
+    "section": "2.6",
+    "page": "2-14",
+    "front": "Total stopping distance at 55 mph on dry road?",
+    "back": "About 419 feet",
+    "why": "More than a football field at 60 mph."
+  },
+  {
+    "id": "gk-041",
+    "section": "2.6",
+    "page": "2-14",
+    "front": "Double your speed. What happens to braking distance?",
+    "back": "It becomes 4 times longer"
+  },
+  {
+    "id": "gk-042",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "Empty or loaded: which truck needs more room to stop?",
+    "back": "Empty",
+    "why": "An empty truck has less traction."
+  },
+  {
+    "id": "gk-043",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "On a wet road, slow down by how much?",
+    "back": "About 1/3 (55 down to 35 mph)"
+  },
+  {
+    "id": "gk-044",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "On packed snow, slow down by how much?",
+    "back": "By 1/2 or more"
+  },
+  {
+    "id": "gk-045",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "What freezes first, bridges or roads?",
+    "back": "Bridges",
+    "why": "Watch out near 32°F."
+  },
+  {
+    "id": "gk-046",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "What is black ice?",
+    "back": "Thin clear ice that makes the road look wet"
+  },
+  {
+    "id": "gk-047",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "When is a wet road most slippery?",
+    "back": "Just after rain starts",
+    "why": "Rain mixes with oil on the road."
+  },
+  {
+    "id": "gk-048",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "Hydroplaning can start at what speed?",
+    "back": "As low as 30 mph"
+  },
+  {
+    "id": "gk-049",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "You are hydroplaning. What do you do?",
+    "back": "Let off the gas and push in the clutch",
+    "why": "Do not use the brakes."
+  },
+  {
+    "id": "gk-050",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "When should you slow down for a curve?",
+    "back": "Before you enter it",
+    "why": "Braking in a curve can lock the wheels."
+  },
+  {
+    "id": "gk-051",
+    "section": "2.6",
+    "page": "2-15",
+    "front": "You should always be able to stop within what distance?",
+    "back": "The distance you can see ahead"
+  },
+  {
+    "id": "gk-052",
+    "section": "2.6",
+    "page": "2-16",
+    "front": "Number 1 cause of injury and death in work zones?",
+    "back": "Speeding traffic"
+  },
+  {
+    "id": "gk-053",
+    "section": "2.7",
+    "page": "2-16",
+    "front": "Which space around your truck matters most?",
+    "back": "The space ahead"
+  },
+  {
+    "id": "gk-054",
+    "section": "2.7",
+    "page": "2-16",
+    "front": "Following distance rule under 40 mph?",
+    "back": "1 second per 10 feet of vehicle length"
+  },
+  {
+    "id": "gk-055",
+    "section": "2.7",
+    "page": "2-16",
+    "front": "Over 40 mph, how much time do you add?",
+    "back": "1 more second"
+  },
+  {
+    "id": "gk-056",
+    "section": "2.7",
+    "page": "2-16",
+    "front": "40-foot truck under 40 mph: following distance?",
+    "back": "4 seconds"
+  },
+  {
+    "id": "gk-057",
+    "section": "2.7",
+    "page": "2-17",
+    "front": "40-foot truck over 40 mph: following distance?",
+    "back": "5 seconds"
+  },
+  {
+    "id": "gk-058",
+    "section": "2.7",
+    "page": "2-17",
+    "front": "Someone is tailgating you. What should you do?",
+    "back": "Add space ahead and slow down gently",
+    "why": "Do not speed up or flash your brake lights."
+  },
+  {
+    "id": "gk-059",
+    "section": "2.7",
+    "page": "2-18",
+    "front": "Are posted bridge heights always correct?",
+    "back": "No",
+    "why": "New paving or packed snow can lower clearance."
+  },
+  {
+    "id": "gk-060",
+    "section": "2.7",
+    "page": "2-18",
+    "front": "Empty or loaded: which van sits higher?",
+    "back": "Empty"
+  },
+  {
+    "id": "gk-061",
+    "section": "2.7",
+    "page": "2-18",
+    "front": "Right turn: how do you stop cars passing on your right?",
+    "back": "Keep the back near the curb; swing wide late"
+  },
+  {
+    "id": "gk-062",
+    "section": "2.7",
+    "page": "2-18",
+    "front": "Should you swing left before a right turn?",
+    "back": "No",
+    "why": "A car may try to pass you on the right."
+  },
+  {
+    "id": "gk-063",
+    "section": "2.7",
+    "page": "2-18",
+    "front": "Left turn: when do you start turning?",
+    "back": "After you reach the center of the intersection"
+  },
+  {
+    "id": "gk-064",
+    "section": "2.7",
+    "page": "2-18",
+    "front": "Two left-turn lanes: which one do you use?",
+    "back": "The right-hand turn lane"
+  },
+  {
+    "id": "gk-065",
+    "section": "2.8",
+    "page": "2-19",
+    "front": "Emergency vehicle stopped on the shoulder. What should you do?",
+    "back": "Slow down and move over a lane if safe"
+  },
+  {
+    "id": "gk-066",
+    "section": "2.8",
+    "page": "2-21",
+    "front": "What does the slow-moving vehicle sign look like?",
+    "back": "A red triangle with an orange center"
+  },
+  {
+    "id": "gk-067",
+    "section": "2.9",
+    "page": "2-22",
+    "front": "Name the 2 main types of distraction.",
+    "back": "Physical and mental",
+    "why": "Texting is both, so it is the worst."
+  },
+  {
+    "id": "gk-068",
+    "section": "2.9",
+    "page": "2-22",
+    "front": "What phone can you use while driving a CMV?",
+    "back": "Hands-free only, placed close to you"
+  },
+  {
+    "id": "gk-069",
+    "section": "2.9",
+    "page": "2-23",
+    "front": "Texting raises crash risk by how much?",
+    "back": "23 times",
+    "why": "Texting is the worst distraction."
+  },
+  {
+    "id": "gk-070",
+    "section": "2.10",
+    "page": "2-24",
+    "front": "An aggressive driver comes at you. What first?",
+    "back": "Get out of their way"
+  },
+  {
+    "id": "gk-071",
+    "section": "2.11",
+    "page": "2-25",
+    "front": "Should you wear tinted glasses at night?",
+    "back": "No",
+    "why": "They cut the light you need to see."
+  },
+  {
+    "id": "gk-072",
+    "section": "2.11",
+    "page": "2-26",
+    "front": "Name signs that you are too tired to drive.",
+    "back": "Yawning, heavy eyes, drifting, missing exits"
+  },
+  {
+    "id": "gk-073",
+    "section": "2.11",
+    "page": "2-26",
+    "front": "On long trips, how often should you take a break?",
+    "back": "About every 100 miles or 2 hours"
+  },
+  {
+    "id": "gk-074",
+    "section": "2.11",
+    "page": "2-27",
+    "front": "What is the only real cure for being sleepy?",
+    "back": "Sleep",
+    "why": "Coffee and drugs do not fix fatigue."
+  },
+  {
+    "id": "gk-075",
+    "section": "2.11",
+    "page": "2-27",
+    "front": "How far ahead do low beams let you see?",
+    "back": "About 250 feet"
+  },
+  {
+    "id": "gk-076",
+    "section": "2.11",
+    "page": "2-27",
+    "front": "How far ahead do high beams let you see?",
+    "back": "About 350 to 500 feet"
+  },
+  {
+    "id": "gk-077",
+    "section": "2.11",
+    "page": "2-27",
+    "front": "Dim your high beams within what distance of a car?",
+    "back": "500 feet",
+    "why": "Oncoming or one you follow."
+  },
+  {
+    "id": "gk-078",
+    "section": "2.12",
+    "page": "2-28",
+    "front": "Best advice for driving in fog?",
+    "back": "Don't. Pull off until it clears."
+  },
+  {
+    "id": "gk-079",
+    "section": "2.12",
+    "page": "2-28",
+    "front": "If you must drive in fog, which lights do you use?",
+    "back": "Low beams, fog lights, and 4-way flashers"
+  },
+  {
+    "id": "gk-080",
+    "section": "2.13",
+    "page": "2-29",
+    "front": "No spray coming off other cars' tires means what?",
+    "back": "Ice has formed on the road"
+  },
+  {
+    "id": "gk-081",
+    "section": "2.13",
+    "page": "2-29",
+    "front": "Must drive through deep water. How?",
+    "back": "Low gear, light brake pressure, then dry brakes",
+    "why": "Light braking keeps water and mud out."
+  },
+  {
+    "id": "gk-082",
+    "section": "2.14",
+    "page": "2-29",
+    "front": "In hot weather, how often should you check tires?",
+    "back": "Every 2 hours or 100 miles"
+  },
+  {
+    "id": "gk-083",
+    "section": "2.14",
+    "page": "2-29",
+    "front": "Tire pressure is high on a hot day. Let air out?",
+    "back": "No",
+    "why": "It will be too low when the tire cools."
+  },
+  {
+    "id": "gk-084",
+    "section": "2.14",
+    "page": "2-30",
+    "front": "When is it safe to remove the radiator cap?",
+    "back": "Only after the system has cooled",
+    "why": "Hot steam and water can spray out."
+  },
+  {
+    "id": "gk-085",
+    "section": "2.14",
+    "page": "2-30",
+    "front": "What is bleeding tar?",
+    "back": "Tar rising up on hot roads; very slippery"
+  },
+  {
+    "id": "gk-086",
+    "section": "2.15",
+    "page": "2-31",
+    "front": "Which vehicles must always stop at rail crossings?",
+    "back": "Buses with passengers and hazmat vehicles"
+  },
+  {
+    "id": "gk-087",
+    "section": "2.15",
+    "page": "2-31",
+    "front": "No stop line: how close to the rail do you stop?",
+    "back": "15 to 50 feet from the nearest rail"
+  },
+  {
+    "id": "gk-088",
+    "section": "2.15",
+    "page": "2-32",
+    "front": "Can you count on hearing a train horn?",
+    "back": "No",
+    "why": "Some crossings ban horns, and cabs are noisy."
+  },
+  {
+    "id": "gk-089",
+    "section": "2.15",
+    "page": "2-32",
+    "front": "One train passes on a double track. What next?",
+    "back": "Check for a second train before crossing"
+  },
+  {
+    "id": "gk-090",
+    "section": "2.15",
+    "page": "2-32",
+    "front": "How long does a tractor-trailer take to clear 1 track?",
+    "back": "At least 14 seconds"
+  },
+  {
+    "id": "gk-091",
+    "section": "2.15",
+    "page": "2-32",
+    "front": "How long to clear a double track?",
+    "back": "More than 15 seconds"
+  },
+  {
+    "id": "gk-092",
+    "section": "2.15",
+    "page": "2-32",
+    "front": "Can you shift gears while crossing tracks?",
+    "back": "No"
+  },
+  {
+    "id": "gk-093",
+    "section": "2.15",
+    "page": "2-32",
+    "front": "Name trailers that can get stuck on raised crossings.",
+    "back": "Lowboys, car carriers, moving vans",
+    "why": "Low-slung trailers hang up on the tracks."
+  },
+  {
+    "id": "gk-094",
+    "section": "2.15",
+    "page": "2-32",
+    "front": "Stuck on the tracks. What first?",
+    "back": "Get out and away from the tracks",
+    "why": "Then call the number posted at the crossing or 911."
+  },
+  {
+    "id": "gk-095",
+    "section": "2.16",
+    "page": "2-32",
+    "front": "What is brake fade?",
+    "back": "Hot brakes lose power",
+    "why": "You must press harder and harder to slow down."
+  },
+  {
+    "id": "gk-096",
+    "section": "2.16",
+    "page": "2-33",
+    "front": "When should you pick a low gear for a downgrade?",
+    "back": "Before you start down",
+    "why": "Once speed builds, you may not get into gear."
+  },
+  {
+    "id": "gk-097",
+    "section": "2.16",
+    "page": "2-33",
+    "front": "On a downgrade, brakes are used with what?",
+    "back": "Engine braking; brakes are only extra help"
+  },
+  {
+    "id": "gk-098",
+    "section": "2.16",
+    "page": "2-33",
+    "front": "Downhill braking: when do you release the brakes?",
+    "back": "About 5 mph below your safe speed"
+  },
+  {
+    "id": "gk-099",
+    "section": "2.16",
+    "page": "2-33",
+    "front": "Safe speed is 40 mph. Brake down to what?",
+    "back": "35 mph, then let go",
+    "why": "Each brake use lasts about 3 seconds."
+  },
+  {
+    "id": "gk-100",
+    "section": "2.17",
+    "page": "2-34",
+    "front": "Turning or stopping: which is usually faster to miss something?",
+    "back": "Turning"
+  },
+  {
+    "id": "gk-101",
+    "section": "2.17",
+    "page": "2-34",
+    "front": "Should you brake while making a quick turn?",
+    "back": "No",
+    "why": "The wheels can lock and you skid."
+  },
+  {
+    "id": "gk-102",
+    "section": "2.17",
+    "page": "2-34",
+    "front": "What is counter-steering?",
+    "back": "Turning back the other way after you clear it"
+  },
+  {
+    "id": "gk-103",
+    "section": "2.17",
+    "page": "2-34",
+    "front": "Car drifts into your lane head-on. Which way do you steer?",
+    "back": "To the right"
+  },
+  {
+    "id": "gk-104",
+    "section": "2.17",
+    "page": "2-34",
+    "front": "Leaving the road: when can you start braking?",
+    "back": "When you slow to about 20 mph",
+    "why": "Then brake very gently."
+  },
+  {
+    "id": "gk-105",
+    "section": "2.17",
+    "page": "2-34",
+    "front": "What is controlled braking?",
+    "back": "Brake hard without locking the wheels"
+  },
+  {
+    "id": "gk-106",
+    "section": "2.17",
+    "page": "2-35",
+    "front": "What is stab braking?",
+    "back": "Brake fully, let up when wheels lock, repeat"
+  },
+  {
+    "id": "gk-107",
+    "section": "2.17",
+    "page": "2-35",
+    "front": "Brake pedal goes to the floor. What do you do?",
+    "back": "Downshift, pump brakes, use parking brake"
+  },
+  {
+    "id": "gk-108",
+    "section": "2.17",
+    "page": "2-35",
+    "front": "Brakes fail going downhill. What is your best hope?",
+    "back": "An escape ramp"
+  },
+  {
+    "id": "gk-109",
+    "section": "2.17",
+    "page": "2-35",
+    "front": "A tire blows. What do you do first?",
+    "back": "Hold the wheel firmly; stay off the brake"
+  },
+  {
+    "id": "gk-110",
+    "section": "2.18",
+    "page": "2-36",
+    "front": "What does ABS do?",
+    "back": "Keeps wheels from locking in hard braking"
+  },
+  {
+    "id": "gk-111",
+    "section": "2.18",
+    "page": "2-36",
+    "front": "Does ABS make you stop shorter?",
+    "back": "Not always. It helps you keep control."
+  },
+  {
+    "id": "gk-112",
+    "section": "2.18",
+    "page": "2-36",
+    "front": "Where is the trailer ABS warning lamp?",
+    "back": "Yellow lamp on the left side"
+  },
+  {
+    "id": "gk-113",
+    "section": "2.18",
+    "page": "2-37",
+    "front": "How do you brake with ABS?",
+    "back": "The same way as always"
+  },
+  {
+    "id": "gk-114",
+    "section": "2.18",
+    "page": "2-37",
+    "front": "ABS stops working. What do you still have?",
+    "back": "Normal brakes",
+    "why": "Drive normally and get it fixed soon."
+  },
+  {
+    "id": "gk-115",
+    "section": "2.19",
+    "page": "2-37",
+    "front": "Name the 4 causes of skids.",
+    "back": "Over-braking, over-steering, too much gas, too fast",
+    "why": "Most bad skids come from driving too fast."
+  },
+  {
+    "id": "gk-116",
+    "section": "2.19",
+    "page": "2-37",
+    "front": "A drive-wheel skid in a rig can cause what?",
+    "back": "A jackknife"
+  },
+  {
+    "id": "gk-117",
+    "section": "2.19",
+    "page": "2-37",
+    "front": "How do you fix a drive-wheel braking skid?",
+    "back": "Stop braking, then counter-steer"
+  },
+  {
+    "id": "gk-118",
+    "section": "2.19",
+    "page": "2-38",
+    "front": "How do you stop a front-wheel skid?",
+    "back": "Let the truck slow down",
+    "why": "Stop turning and braking so hard."
+  },
+  {
+    "id": "gk-119",
+    "section": "2.20",
+    "page": "2-38",
+    "front": "What are the 3 steps at a crash scene?",
+    "back": "Protect the area, call for help, aid the hurt"
+  },
+  {
+    "id": "gk-120",
+    "section": "2.20",
+    "page": "2-38",
+    "front": "At a crash, what do you do first?",
+    "back": "Protect the area from another crash"
+  },
+  {
+    "id": "gk-121",
+    "section": "2.20",
+    "page": "2-38",
+    "front": "When should you move a badly hurt person?",
+    "back": "Only if fire or traffic puts them in danger"
+  },
+  {
+    "id": "gk-122",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "Name 2 causes of tire fires.",
+    "back": "Low tire pressure and duals that touch"
+  },
+  {
+    "id": "gk-123",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "Truck is on fire. Should you pull into a gas station?",
+    "back": "No, stop in an open area"
+  },
+  {
+    "id": "gk-124",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "Engine fire: should you open the hood?",
+    "back": "No, not if you can avoid it",
+    "why": "Spray through the grille or from underneath."
+  },
+  {
+    "id": "gk-125",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "Cargo fire in a box trailer. Open the doors?",
+    "back": "No, keep them shut",
+    "why": "Air feeds the fire."
+  },
+  {
+    "id": "gk-126",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "Where do you aim a fire extinguisher?",
+    "back": "At the base of the fire"
+  },
+  {
+    "id": "gk-127",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "Where should you stand to fight a fire?",
+    "back": "Upwind, as far back as you can"
+  },
+  {
+    "id": "gk-128",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "A B:C extinguisher works on what fires?",
+    "back": "Electrical fires and burning liquids"
+  },
+  {
+    "id": "gk-129",
+    "section": "2.21",
+    "page": "2-39",
+    "front": "Can you use water on an electric or gasoline fire?",
+    "back": "No",
+    "why": "Shock risk, and water spreads a gas fire."
+  },
+  {
+    "id": "gk-130",
+    "section": "2.22",
+    "page": "2-40",
+    "front": "What will sober up a drinker?",
+    "back": "Only time",
+    "why": "Not coffee or a cold shower."
+  },
+  {
+    "id": "gk-131",
+    "section": "2.22",
+    "page": "2-42",
+    "front": "Can cold medicine make you unsafe to drive?",
+    "back": "Yes, it can make you drowsy"
+  },
+  {
+    "id": "gk-132",
+    "section": "2.23",
+    "page": "2-43",
+    "front": "Where do hazmat papers go when you leave the cab?",
+    "back": "On the driver's seat"
+  },
+  {
+    "id": "gk-133",
+    "section": "2.23",
+    "page": "2-43",
+    "front": "How many placards must a placarded truck have?",
+    "back": "At least 4 (front, rear, both sides)"
+  },
+  {
+    "id": "gk-134",
+    "section": "2.23",
+    "page": "2-43",
+    "front": "Can you haul hazmat that needs no placards without an H endorsement?",
+    "back": "Yes"
+  },
+  {
+    "id": "gk-135",
+    "section": "3",
+    "page": "3-1",
+    "front": "You didn't load the cargo. Who must inspect it?",
+    "back": "You, the driver"
+  },
+  {
+    "id": "gk-136",
+    "section": "3.1",
+    "page": "3-1",
+    "front": "Besides miles and hours, when else do you recheck cargo?",
+    "back": "After every break"
+  },
+  {
+    "id": "gk-137",
+    "section": "3.2",
+    "page": "3-1",
+    "front": "What is GVWR?",
+    "back": "Maker's max loaded weight for one vehicle"
+  },
+  {
+    "id": "gk-138",
+    "section": "3.2",
+    "page": "3-2",
+    "front": "What does a bridge formula do?",
+    "back": "Lowers weight for axles close together",
+    "why": "It protects bridges and roads."
+  },
+  {
+    "id": "gk-139",
+    "section": "3.2",
+    "page": "3-2",
+    "front": "When might max legal weight be unsafe?",
+    "back": "In bad weather or in mountains"
+  },
+  {
+    "id": "gk-140",
+    "section": "3.2",
+    "page": "3-2",
+    "front": "High center of gravity makes what more likely?",
+    "back": "Tipping over"
+  },
+  {
+    "id": "gk-141",
+    "section": "3.2",
+    "page": "3-2",
+    "front": "How should you stack heavy and light cargo?",
+    "back": "Heavy on the bottom, light on top"
+  },
+  {
+    "id": "gk-142",
+    "section": "3.2",
+    "page": "3-2",
+    "front": "Too little weight on the front axle causes what?",
+    "back": "Steering becomes unsafe"
+  },
+  {
+    "id": "gk-143",
+    "section": "3.3",
+    "page": "3-2",
+    "front": "What is blocking?",
+    "back": "Pieces fit snug against cargo to stop sliding"
+  },
+  {
+    "id": "gk-144",
+    "section": "3.3",
+    "page": "3-2",
+    "front": "What is bracing?",
+    "back": "Supports from top of cargo to floor or walls"
+  },
+  {
+    "id": "gk-145",
+    "section": "3.3",
+    "page": "3-2",
+    "front": "Tie-downs must hold at least how much of the cargo weight?",
+    "back": "Half (1/2) of the cargo weight",
+    "why": "Add up the working load limits."
+  },
+  {
+    "id": "gk-146",
+    "section": "3.3",
+    "page": "3-3",
+    "front": "How many tie-downs per length of cargo?",
+    "back": "1 for every 10 feet"
+  },
+  {
+    "id": "gk-147",
+    "section": "3.3",
+    "page": "3-3",
+    "front": "Smallest number of tie-downs for any load?",
+    "back": "2"
+  },
+  {
+    "id": "gk-148",
+    "section": "3.3",
+    "page": "3-3",
+    "front": "What does a header board do?",
+    "back": "Keeps cargo from sliding into the cab"
+  },
+  {
+    "id": "gk-149",
+    "section": "3.3",
+    "page": "3-3",
+    "front": "2 reasons to cover cargo?",
+    "back": "Protect people from spills; protect cargo from weather"
+  },
+  {
+    "id": "gk-150",
+    "section": "3.3",
+    "page": "3-3",
+    "front": "You can't inspect a sealed load. What do you check?",
+    "back": "Gross weight and axle weight limits"
+  },
+  {
+    "id": "gk-151",
+    "section": "3.4",
+    "page": "3-3",
+    "front": "Why are dry bulk tanks tricky?",
+    "back": "High center of gravity; load can shift",
+    "why": "Go slow on curves and sharp turns."
+  },
+  {
+    "id": "gk-152",
+    "section": "3.4",
+    "page": "3-3",
+    "front": "Partial livestock load: how do you keep animals still?",
+    "back": "Use false bulkheads to bunch them"
+  }
+]

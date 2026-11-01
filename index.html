@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>CDL Prep</title>
+    <meta name="description" content="Read-aloud flashcards for the South Dakota Class A CDL permit tests: General Knowledge, Air Brakes and Combination Vehicles." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Google tag (gtag.js); only reports from the live site, so local dev doesn't pollute analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HK7FW9Y6N"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      if (location.hostname === 'danielburkhalter.dev') {
+        gtag('js', new Date());
+        gtag('config', 'G-3HK7FW9Y6N');
+      }
+    </script>
+    <script>
+      // Apply the saved theme before first paint so dark mode doesn't flash
+      try {
+        const t = localStorage.getItem('theme')
+        const dark = t === 'dark' || (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.classList.toggle('dark', dark)
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,596 @@
+[
+  {
+    "id": "cv-001",
+    "section": "6.1.1",
+    "page": "6-1",
+    "front": "What causes over half of truck driver crash deaths?",
+    "back": "Rollovers.",
+    "why": "A high, heavy load tips more easily."
+  },
+  {
+    "id": "cv-002",
+    "section": "6.1.1",
+    "page": "6-1",
+    "front": "A full rig rolls over how many times more than an empty one?",
+    "back": "10 times.",
+    "why": "More cargo makes the center of gravity higher."
+  },
+  {
+    "id": "cv-003",
+    "section": "6.1.1",
+    "page": "6-1",
+    "front": "What 2 things help stop rollovers?",
+    "back": "Keep cargo low. Go slow in turns."
+  },
+  {
+    "id": "cv-004",
+    "section": "6.1.2",
+    "page": "6-1",
+    "front": "What can a fast lane change do to a trailer?",
+    "back": "Flip it over.",
+    "why": "This is the crack-the-whip effect."
+  },
+  {
+    "id": "cv-005",
+    "section": "6.1.2",
+    "page": "6-1",
+    "front": "What causes the crack-the-whip effect?",
+    "back": "Rearward amplification."
+  },
+  {
+    "id": "cv-006",
+    "section": "6.1.2",
+    "page": "6-1",
+    "front": "Rearward amplification of 2.0 means what?",
+    "back": "Rear trailer is 2 times as likely to tip.",
+    "why": "It is compared to the tractor."
+  },
+  {
+    "id": "cv-007",
+    "section": "6.1.2",
+    "page": "6-1",
+    "front": "Triples: the last trailer tips how many times easier than the tractor?",
+    "back": "3.5 times.",
+    "why": "This number is the rearward amplification."
+  },
+  {
+    "id": "cv-008",
+    "section": "6.1.2",
+    "page": "6-1",
+    "front": "In a sudden turn with doubles, which trailer tips first?",
+    "back": "The rear trailer.",
+    "why": "The whip is strongest at the tail."
+  },
+  {
+    "id": "cv-009",
+    "section": "6.1.2",
+    "page": "6-1",
+    "front": "How should you steer when pulling trailers?",
+    "back": "Gently and smoothly.",
+    "why": "A quick jerk of the wheel can tip the trailer."
+  },
+  {
+    "id": "cv-010",
+    "section": "6.1.3",
+    "page": "6-1",
+    "front": "Which takes longer to stop: an empty rig or a loaded one?",
+    "back": "The empty rig.",
+    "why": "Stiff springs give poor grip, so wheels lock."
+  },
+  {
+    "id": "cv-011",
+    "section": "6.1.3",
+    "page": "6-1",
+    "front": "Does a bobtail stop faster than a full rig?",
+    "back": "No. It takes longer to stop."
+  },
+  {
+    "id": "cv-012",
+    "section": "6.1.4",
+    "page": "6-2",
+    "front": "Which trailers can get stuck on raised rail crossings?",
+    "back": "Low ones: lowboy, car carrier, moving van.",
+    "why": "Possum-belly livestock trailers too."
+  },
+  {
+    "id": "cv-013",
+    "section": "6.1.4",
+    "page": "6-2",
+    "front": "What tractor setup can hang up on a rail crossing?",
+    "back": "Single-axle tractor, landing gear set for tandem.",
+    "why": "The long trailer sits too low in the middle."
+  },
+  {
+    "id": "cv-014",
+    "section": "6.1.4",
+    "page": "6-2",
+    "front": "You are stuck on the tracks. What do you do first?",
+    "back": "Get out and away from the tracks."
+  },
+  {
+    "id": "cv-015",
+    "section": "6.1.4",
+    "page": "6-2",
+    "front": "After leaving a stuck rig on tracks, who do you call?",
+    "back": "911 or the number posted at the crossing.",
+    "why": "Give the crossing DOT number if posted."
+  },
+  {
+    "id": "cv-016",
+    "section": "6.1.5",
+    "page": "6-2",
+    "front": "What happens when trailer wheels lock up?",
+    "back": "The trailer swings out. A trailer jackknife."
+  },
+  {
+    "id": "cv-017",
+    "section": "6.1.5",
+    "page": "6-2",
+    "front": "When is a trailer jackknife most likely?",
+    "back": "When the trailer is empty or light."
+  },
+  {
+    "id": "cv-018",
+    "section": "6.1.5",
+    "page": "6-2",
+    "front": "What is the best way to spot a trailer skid?",
+    "back": "Look in your mirrors.",
+    "why": "Check mirrors any time you brake hard."
+  },
+  {
+    "id": "cv-019",
+    "section": "6.1.5",
+    "page": "6-3",
+    "front": "How do you stop a trailer skid?",
+    "back": "Let off the brakes.",
+    "why": "Rolling wheels grip the road again."
+  },
+  {
+    "id": "cv-020",
+    "section": "6.1.5",
+    "page": "6-3",
+    "front": "Should you use the trailer hand brake to fix a skid?",
+    "back": "No.",
+    "why": "Trailer brakes caused the skid."
+  },
+  {
+    "id": "cv-021",
+    "section": "6.1.6",
+    "page": "6-3",
+    "front": "What is offtracking?",
+    "back": "Rear wheels take a tighter path than front wheels.",
+    "why": "It is also called cheating."
+  },
+  {
+    "id": "cv-022",
+    "section": "6.1.6",
+    "page": "6-3",
+    "front": "Which wheels offtrack the most?",
+    "back": "Rear wheels of the last trailer.",
+    "why": "Longer rigs offtrack more."
+  },
+  {
+    "id": "cv-023",
+    "section": "6.1.6",
+    "page": "6-3",
+    "front": "Why keep your rear close to the curb in a turn?",
+    "back": "So cars cannot pass you on the right."
+  },
+  {
+    "id": "cv-024",
+    "section": "6.1.6",
+    "page": "6-3",
+    "front": "If you must use another lane to turn, when do you swing wide?",
+    "back": "As you finish the turn.",
+    "why": "Not before you start the turn."
+  },
+  {
+    "id": "cv-025",
+    "section": "6.1.7",
+    "page": "6-3",
+    "front": "Backing a trailer, which way do you turn the wheel?",
+    "back": "Opposite the way you want to go."
+  },
+  {
+    "id": "cv-026",
+    "section": "6.1.7",
+    "page": "6-3",
+    "front": "If you must back on a curve, back to which side?",
+    "back": "The driver's side.",
+    "why": "So you can see."
+  },
+  {
+    "id": "cv-027",
+    "section": "6.2.1",
+    "page": "6-4",
+    "front": "What should you use the trailer hand valve for?",
+    "back": "Only to test trailer brakes."
+  },
+  {
+    "id": "cv-028",
+    "section": "6.2.1",
+    "page": "6-4",
+    "front": "Why not use the trailer hand valve while driving?",
+    "back": "It can make the trailer skid.",
+    "why": "The foot brake is safer. It brakes all wheels."
+  },
+  {
+    "id": "cv-029",
+    "section": "6.2.1",
+    "page": "6-4",
+    "front": "Can you park using the trailer hand valve?",
+    "back": "Never.",
+    "why": "Air can leak out and free the brakes."
+  },
+  {
+    "id": "cv-030",
+    "section": "6.2.2",
+    "page": "6-5",
+    "front": "What does the tractor protection valve do?",
+    "back": "Keeps tractor air if the trailer leaks or breaks away."
+  },
+  {
+    "id": "cv-031",
+    "section": "6.2.2",
+    "page": "6-5",
+    "front": "At what air pressure does the tractor protection valve close?",
+    "back": "20 to 45 psi."
+  },
+  {
+    "id": "cv-032",
+    "section": "6.2.2",
+    "page": "6-5",
+    "front": "When the tractor protection valve closes, what happens to the trailer?",
+    "back": "Its emergency brakes come on."
+  },
+  {
+    "id": "cv-033",
+    "section": "6.2.3",
+    "page": "6-5",
+    "front": "What does the trailer air supply control look like?",
+    "back": "A red 8-sided knob.",
+    "why": "Shaped like a stop sign."
+  },
+  {
+    "id": "cv-034",
+    "section": "6.2.3",
+    "page": "6-5",
+    "front": "What happens when you push in the trailer air supply knob?",
+    "back": "Air goes to the trailer."
+  },
+  {
+    "id": "cv-035",
+    "section": "6.2.3",
+    "page": "6-5",
+    "front": "What happens when you pull out the trailer air supply knob?",
+    "back": "Air shuts off. Trailer emergency brakes come on."
+  },
+  {
+    "id": "cv-036",
+    "section": "6.2.4",
+    "page": "6-5",
+    "front": "How many air lines run between each unit?",
+    "back": "2: service and emergency."
+  },
+  {
+    "id": "cv-037",
+    "section": "6.2.4",
+    "page": "6-5",
+    "front": "What controls air in the service line?",
+    "back": "The foot brake or trailer hand valve."
+  },
+  {
+    "id": "cv-038",
+    "section": "6.2.4",
+    "page": "6-5",
+    "front": "What is another name for the emergency line?",
+    "back": "Supply line."
+  },
+  {
+    "id": "cv-039",
+    "section": "6.2.4",
+    "page": "6-5",
+    "front": "What are the 2 jobs of the emergency line?",
+    "back": "Fills trailer air tanks. Controls emergency brakes."
+  },
+  {
+    "id": "cv-040",
+    "section": "6.2.4",
+    "page": "6-5",
+    "front": "What happens if the emergency line breaks or loses air?",
+    "back": "Trailer emergency brakes come on.",
+    "why": "The air supply knob also pops out."
+  },
+  {
+    "id": "cv-041",
+    "section": "6.2.5",
+    "page": "6-5",
+    "front": "What color is the emergency line? The service line?",
+    "back": "Emergency is red. Service is blue.",
+    "why": "Red for emergency, like a fire truck."
+  },
+  {
+    "id": "cv-042",
+    "section": "6.2.5",
+    "page": "6-5",
+    "front": "What are glad hands?",
+    "back": "Couplers that join tractor and trailer air lines."
+  },
+  {
+    "id": "cv-043",
+    "section": "6.2.5",
+    "page": "6-5",
+    "front": "At what angle do you join glad hands?",
+    "back": "90 degrees, then turn to lock."
+  },
+  {
+    "id": "cv-044",
+    "section": "6.2.5",
+    "page": "6-6",
+    "front": "You crossed the air lines. What happens to trailer spring brakes?",
+    "back": "They stay on.",
+    "why": "Supply air goes to the wrong line."
+  },
+  {
+    "id": "cv-045",
+    "section": "6.2.5",
+    "page": "6-6",
+    "front": "Crossed lines on an old trailer with no spring brakes. The risk?",
+    "back": "You could drive with no trailer brakes."
+  },
+  {
+    "id": "cv-046",
+    "section": "6.2.5",
+    "page": "6-6",
+    "front": "What are dummy couplers for?",
+    "back": "Keep dirt and water out of unused lines."
+  },
+  {
+    "id": "cv-047",
+    "section": "6.2.6",
+    "page": "6-6",
+    "front": "How often should you drain trailer air tanks?",
+    "back": "Every day.",
+    "why": "Water and oil can make brakes fail."
+  },
+  {
+    "id": "cv-048",
+    "section": "6.2.7",
+    "page": "6-6",
+    "front": "What is another name for shut-off valves?",
+    "back": "Cut-out cocks."
+  },
+  {
+    "id": "cv-049",
+    "section": "6.2.7",
+    "page": "6-6",
+    "front": "Which shut-off valves should be closed?",
+    "back": "Only the ones at the back of the last trailer.",
+    "why": "All others stay open."
+  },
+  {
+    "id": "cv-050",
+    "section": "6.2.8",
+    "page": "6-6",
+    "front": "Why chock a trailer with no spring brakes when parked?",
+    "back": "Tank air leaks away. Then it has no brakes."
+  },
+  {
+    "id": "cv-051",
+    "section": "6.3.1",
+    "page": "6-6",
+    "front": "Trailers built on or after what date need ABS?",
+    "back": "March 1, 1998."
+  },
+  {
+    "id": "cv-052",
+    "section": "6.3.1",
+    "page": "6-7",
+    "front": "Where is the trailer ABS warning lamp?",
+    "back": "Left side. It is yellow."
+  },
+  {
+    "id": "cv-053",
+    "section": "6.3.2",
+    "page": "6-7",
+    "front": "How should you brake with ABS?",
+    "back": "The same way you always do."
+  },
+  {
+    "id": "cv-054",
+    "section": "6.3.2",
+    "page": "6-7",
+    "front": "Your ABS fails. Do you still have brakes?",
+    "back": "Yes, normal brakes. Get ABS fixed soon."
+  },
+  {
+    "id": "cv-055",
+    "section": "6.4.1",
+    "page": "6-7",
+    "front": "Why keep the fifth wheel plate greased?",
+    "back": "So friction does not cause steering trouble."
+  },
+  {
+    "id": "cv-056",
+    "section": "6.4.1",
+    "page": "6-7",
+    "front": "How should the fifth wheel sit before coupling?",
+    "back": "Tilted down to the rear. Jaws open."
+  },
+  {
+    "id": "cv-057",
+    "section": "6.4.1",
+    "page": "6-7",
+    "front": "Before coupling, a sliding fifth wheel must be what?",
+    "back": "Locked."
+  },
+  {
+    "id": "cv-058",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "Before you back under, how is the trailer held still?",
+    "back": "Wheels chocked or spring brakes on."
+  },
+  {
+    "id": "cv-059",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "Why never back under a trailer at an angle?",
+    "back": "You could push it sideways and break the landing gear."
+  },
+  {
+    "id": "cv-060",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "How high should the trailer be for coupling?",
+    "back": "Low enough that the tractor lifts it a bit.",
+    "why": "Too low hits the nose. Too high may not lock."
+  },
+  {
+    "id": "cv-061",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "Which air line do you hook up first?",
+    "back": "Emergency line, then service line."
+  },
+  {
+    "id": "cv-062",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "After supplying air, why shut the engine off?",
+    "back": "So you can hear the trailer brakes work."
+  },
+  {
+    "id": "cv-063",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "Before backing under the trailer, what do you do to its brakes?",
+    "back": "Lock them. Pull out the air supply knob."
+  },
+  {
+    "id": "cv-064",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "How do you do the tug test?",
+    "back": "Pull forward gently with trailer brakes locked.",
+    "why": "Raise the landing gear a little first."
+  },
+  {
+    "id": "cv-065",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "Why take the key before checking the coupling?",
+    "back": "So no one moves the truck while you're under it."
+  },
+  {
+    "id": "cv-066",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "How much gap between upper and lower fifth wheel?",
+    "back": "None."
+  },
+  {
+    "id": "cv-067",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "What does a gap between the fifth wheel plates mean?",
+    "back": "Kingpin may be on top of the jaws.",
+    "why": "The trailer could come loose easily."
+  },
+  {
+    "id": "cv-068",
+    "section": "6.4.1",
+    "page": "6-8",
+    "front": "The locking jaws should close around which part of the kingpin?",
+    "back": "The shank, not the head."
+  },
+  {
+    "id": "cv-069",
+    "section": "6.4.1",
+    "page": "6-9",
+    "front": "How far do you raise the landing gear to drive?",
+    "back": "All the way up.",
+    "why": "Gear part way up can catch on tracks."
+  },
+  {
+    "id": "cv-070",
+    "section": "6.4.1",
+    "page": "6-9",
+    "front": "After raising landing gear, what 2 gaps do you check?",
+    "back": "Tractor frame to landing gear. Tires to trailer nose."
+  },
+  {
+    "id": "cv-071",
+    "section": "6.4.1",
+    "page": "6-9",
+    "front": "What is the last step of coupling?",
+    "back": "Remove and store the wheel chocks."
+  },
+  {
+    "id": "cv-072",
+    "section": "6.4.2",
+    "page": "6-9",
+    "front": "How do you ease pressure on the locking jaws?",
+    "back": "Back up gently, then set the parking brake."
+  },
+  {
+    "id": "cv-073",
+    "section": "6.4.2",
+    "page": "6-9",
+    "front": "When should you chock trailer wheels before uncoupling?",
+    "back": "If no spring brakes, or if unsure."
+  },
+  {
+    "id": "cv-074",
+    "section": "6.4.2",
+    "page": "6-9",
+    "front": "Loaded trailer: what do you do after landing gear touches ground?",
+    "back": "Crank a few more turns in low gear.",
+    "why": "Do not lift the trailer off the fifth wheel."
+  },
+  {
+    "id": "cv-075",
+    "section": "6.4.2",
+    "page": "6-9",
+    "front": "When you first pull out, where do you stop the tractor?",
+    "back": "With tractor frame still under the trailer.",
+    "why": "It catches the trailer if landing gear fails."
+  },
+  {
+    "id": "cv-076",
+    "section": "6.5.1",
+    "page": "6-13",
+    "front": "What if the fifth wheel is set too far forward?",
+    "back": "Frame may hit landing gear. Cab may hit trailer.",
+    "why": "This happens in turns."
+  },
+  {
+    "id": "cv-077",
+    "section": "6.5.2",
+    "page": "6-13",
+    "front": "How do you check that air reaches all trailers?",
+    "back": "Open rear shut-off valves on last trailer. Listen for air."
+  },
+  {
+    "id": "cv-078",
+    "section": "6.5.2",
+    "page": "6-13",
+    "front": "How do you test the tractor protection valve?",
+    "back": "Engine off. Pump the brake pedal. Knob should pop out.",
+    "why": "It should pop out at 20 to 45 psi."
+  },
+  {
+    "id": "cv-079",
+    "section": "6.5.2",
+    "page": "6-14",
+    "front": "How do you test trailer emergency brakes?",
+    "back": "Pull the air supply knob. Tug gently. Trailer should hold."
+  },
+  {
+    "id": "cv-080",
+    "section": "6.5.2",
+    "page": "6-14",
+    "front": "How do you test trailer service brakes?",
+    "back": "Roll slowly. Apply the hand valve. Feel brakes grab."
+  }
+]
