@@ -6,13 +6,10 @@ const tokens = [
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
-  darkMode: 'class',
   theme: {
     extend: {
       colors: Object.fromEntries(tokens.map(t => [t, `rgb(var(--${t}) / <alpha-value>)`])),
       fontFamily: {
-        lexend: ['Lexend', 'system-ui', 'sans-serif'],
-        atkinson: ['"Atkinson Hyperlegible"', 'system-ui', 'sans-serif'],
         sans: ['system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
       },
       borderRadius: { DEFAULT: '8px', lg: '14px' },

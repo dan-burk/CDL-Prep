@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Theme tokens as RGB channels so Tailwind's /opacity modifiers work.
-   Light mode is a soft cream rather than pure white, which is easier to read for many dyslexic readers. */
+   A soft cream rather than pure white is easier to read for many dyslexic readers. */
 :root {
   --bg: 248 245 238;
   --surface: 255 253 248;
@@ -14,43 +14,35 @@
   --accent: 37 84 255;
   --accent-fg: 255 255 255;
   --accent-soft: 228 234 255;
-  --good: 21 128 61;
+  --good: 21 112 52;
   --good-soft: 220 245 228;
-  --bad: 194 65 12;
+  --bad: 176 52 8;
   --bad-soft: 255 233 220;
   color-scheme: light;
 }
 
-.dark {
-  --bg: 16 18 24;
-  --surface: 26 29 38;
-  --surface-2: 36 40 52;
-  --border: 50 56 72;
-  --text: 232 230 222;
-  --muted: 150 154 168;
-  --accent: 120 148 255;
-  --accent-fg: 16 18 24;
-  --accent-soft: 34 44 84;
-  --good: 74 222 128;
-  --good-soft: 20 52 34;
-  --bad: 251 146 60;
-  --bad-soft: 64 34 18;
-  color-scheme: dark;
-}
 
 body {
-  @apply bg-bg text-text antialiased;
+  @apply bg-bg font-sans text-text antialiased;
 }
 
 @layer components {
   .card {
     @apply rounded-lg border border-border bg-surface shadow-card;
   }
+  /* Sentence case, not caps: all-caps words lose their shape, which dyslexic readers lean on */
   .label {
-    @apply text-xs font-semibold uppercase tracking-[0.08em] text-muted;
+    @apply font-semibold text-muted;
+  }
+  /* Solid ring with an offset so focus stays visible (3:1) on every background */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg;
   }
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 font-semibold transition-colors
-      focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/30 motion-reduce:transition-none;
+    @apply focus-ring inline-flex items-center justify-center gap-2 rounded-lg px-5 font-semibold transition-colors motion-reduce:transition-none;
+  }
+  /* Keyboard hint inside a button; computers only */
+  .kbd {
+    @apply hidden rounded border border-current px-1.5 text-sm font-medium leading-5 sm:inline-block;
   }
 }

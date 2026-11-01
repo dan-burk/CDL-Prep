@@ -6,10 +6,9 @@ import { TopBar } from './components/TopBar'
 import { deckById } from './decks'
 import { speak as say, stopSpeaking, useVoices } from './speech'
 import { load, save } from './storage'
-import type { DeckId, FontChoice, Progress, Settings } from './types'
+import type { DeckId, Progress, Settings } from './types'
 
-const DEFAULT_SETTINGS: Settings = { font: 'lexend', size: 'lg', rate: 0.9, autoRead: true, voice: '' }
-const FONT_CLASS: Record<FontChoice, string> = { lexend: 'font-lexend', atkinson: 'font-atkinson', sans: 'font-sans' }
+const DEFAULT_SETTINGS: Settings = { rate: 0.9, autoRead: true, voice: '' }
 
 export default function App() {
   const [deckId, setDeckId] = useState<DeckId | null>(null)
@@ -33,8 +32,8 @@ export default function App() {
   const deck = deckId && deckById(deckId)
 
   return (
-    <div className={`min-h-[100dvh] ${FONT_CLASS[settings.font]}`}>
-      <TopBar title={deck ? deck.title : 'CDL Prep · SD Class A'} onBack={deck ? exit : undefined} onSettings={() => setShowSettings(true)} />
+    <div className="flex min-h-[100dvh] flex-col">
+      <TopBar title={deck ? deck.title : 'CDL Prep'} onBack={deck ? exit : undefined} onSettings={() => setShowSettings(true)} />
       {deck
         ? <Study key={deck.id} deck={deck} progress={progress} onProgress={setProgress} settings={settings} speak={speak} onExit={exit} />
         : <Home progress={progress} onStudy={setDeckId} onSpeak={speak} />}

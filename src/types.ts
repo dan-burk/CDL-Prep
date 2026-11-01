@@ -12,7 +12,7 @@ export type DeckId = 'general' | 'air-brakes' | 'combination'
 export interface Deck {
   id: DeckId
   title: string
-  /** What the real permit test looks like, e.g. "50 questions" */
+  /** What the real permit test looks like, e.g. "50-question test" */
   test: string
   /** Manual sections the deck covers, e.g. "Sections 1–3" */
   sections: string
@@ -29,12 +29,7 @@ export interface CardState {
 
 export type Progress = Record<string, CardState>
 
-export type FontChoice = 'lexend' | 'atkinson' | 'sans'
-export type TextSize = 'md' | 'lg' | 'xl'
-
 export interface Settings {
-  font: FontChoice
-  size: TextSize
   rate: number
   autoRead: boolean
   /** speechSynthesis voice name; empty means pick a good English voice automatically */
