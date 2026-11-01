@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Each person reads and writes only their own progress
+    match /users/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+    // Daily talk minutes: written only by the session function (admin access skips these rules)
+    match /usage/{doc=**} {
+      allow read, write: if false;
+    }
+  }
+}

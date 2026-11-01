@@ -29,8 +29,17 @@ jobs:
       # esbuild binary that a Windows-side node_modules lacks
       - run: npm ci
 
-      # build = tsc --noEmit && vite build, so type errors block the deploy
+      # build = tsc --noEmit && vite build, so type errors block the deploy.
+      # Firebase web config is public (it ships in the page anyway), so it lives in repo
+      # Variables, not Secrets. Access is enforced by sign-in and Firestore rules.
       - run: npm run build
+        env:
+          VITE_FIREBASE_API_KEY: ${{ vars.VITE_FIREBASE_API_KEY }}
+          VITE_FIREBASE_AUTH_DOMAIN: ${{ vars.VITE_FIREBASE_AUTH_DOMAIN }}
+          VITE_FIREBASE_PROJECT_ID: ${{ vars.VITE_FIREBASE_PROJECT_ID }}
+          VITE_FIREBASE_STORAGE_BUCKET: ${{ vars.VITE_FIREBASE_STORAGE_BUCKET }}
+          VITE_FIREBASE_MESSAGING_SENDER_ID: ${{ vars.VITE_FIREBASE_MESSAGING_SENDER_ID }}
+          VITE_FIREBASE_APP_ID: ${{ vars.VITE_FIREBASE_APP_ID }}
 
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'

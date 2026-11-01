@@ -45,3 +45,13 @@ export function deckStats(cards: Card[], progress: Progress, now = Date.now()) {
   const next = Math.min(...cards.map(c => progress[c.id]?.due ?? Infinity))
   return { total: cards.length, learned, due, unseen, next }
 }
+
+/** Combine two copies of progress (this device and the account), keeping whichever has seen each card more */
+export function mergeProgress(a: Progress, b: Progress): Progress {
+  const out: Progress = { ...a }
+  for (const [id, s] of Object.entries(b)) {
+    const mine = out[id]
+    if (!mine || s.seen > mine.seen || (s.seen === mine.seen && s.due > mine.due)) out[id] = s
+  }
+  return out
+}

@@ -11,6 +11,7 @@ export function TopBar({ title, onBack, onSettings }: { title: ReactNode; onBack
             <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" aria-hidden><path d="m15 18-6-6 6-6" /></svg>
           </IconButton>
         )}
+        {!onBack && <img src={`${import.meta.env.BASE_URL}logo.png`} alt="" className="mr-2 h-7 w-auto" />}
         <div className="min-w-0 flex-1 truncate text-lg font-semibold">{title}</div>
         <IconButton label="Settings" onClick={onSettings} className="-mr-2.5">
           <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>

@@ -8,3 +8,4 @@ dist
 # Copyrighted source material (AAMVA manual, video transcripts) stays local
 sources/
 CDL-PLAN.md
+code-setup.txt

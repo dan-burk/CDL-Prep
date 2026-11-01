@@ -1,10 +1,13 @@
+import type { User } from 'firebase/auth'
 import { useCallback, useEffect, useState } from 'react'
 import { Home } from './components/Home'
 import { SettingsPanel } from './components/SettingsPanel'
 import { Study } from './components/Study'
 import { TopBar } from './components/TopBar'
 import { deckById } from './decks'
+import { firebaseReady, loadProgress, onUser, saveProgress, signIn, signOutUser } from './firebase'
 import { speak as say, stopSpeaking, useVoices } from './speech'
+import { mergeProgress } from './srs'
 import { load, save } from './storage'
 import type { DeckId, Progress, Settings } from './types'
 
@@ -15,10 +18,32 @@ export default function App() {
   const [showSettings, setShowSettings] = useState(false)
   const [settings, setSettings] = useState<Settings>(() => load('cdl.settings', DEFAULT_SETTINGS))
   const [progress, setProgress] = useState<Progress>(() => load('cdl.progress', {}))
+  const [user, setUser] = useState<User | null>(null)
+  // The uid whose account copy has been merged in; saving waits for it so a stale device copy can't overwrite the account
+  const [syncedUid, setSyncedUid] = useState<string | null>(null)
   const voices = useVoices()
 
   useEffect(() => save('cdl.settings', settings), [settings])
   useEffect(() => save('cdl.progress', progress), [progress])
+
+  useEffect(() => onUser(u => {
+    setUser(u)
+    setSyncedUid(null)
+    if (!u) return
+    loadProgress(u.uid)
+      .then(remote => {
+        setProgress(local => mergeProgress(local, remote))
+        setSyncedUid(u.uid)
+      })
+      .catch(err => console.error('Could not load progress', err))
+  }), [])
+
+  useEffect(() => {
+    if (!user || syncedUid !== user.uid) return
+    // Batch rapid answers into one write
+    const t = setTimeout(() => saveProgress(user.uid, progress).catch(err => console.error('Could not save progress', err)), 1500)
+    return () => clearTimeout(t)
+  }, [progress, user, syncedUid])
 
   const speak = useCallback(
     (text: string) => say(text, { rate: settings.rate, voice: settings.voice, voices }),
@@ -44,6 +69,7 @@ export default function App() {
           voices={voices}
           speak={speak}
           onReset={() => setProgress({})}
+          account={firebaseReady ? { email: user?.email ?? null, onSignIn: () => { signIn()?.catch(() => {}) }, onSignOut: () => { signOutUser() } } : undefined}
           onClose={() => setShowSettings(false)}
         />
       )}
